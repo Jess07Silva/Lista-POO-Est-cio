@@ -10,4 +10,6 @@ public abstract class Funcionario extends PessoaFisica{
 	public void setSalario (double salario) {
 		this.salario = salario;
 	}
+	
+	public abstract double getBonificacao();
 }
